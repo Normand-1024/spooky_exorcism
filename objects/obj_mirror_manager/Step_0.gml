@@ -1,10 +1,12 @@
 if keyboard_check_pressed(ord("M")){
 	if view_get_visible(viewport_id){
+		cursor_sprite = spr_cursor
 		view_set_visible(viewport_id, false)
 		mirror1_id.visible = false
 		mirror2_id.visible = false
 	}
 	else{
+		cursor_sprite = spr_cursor_empty
 		view_set_visible(viewport_id, true)
 		mirror1_id.visible = true
 		mirror2_id.visible = true
