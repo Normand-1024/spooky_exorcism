@@ -49,19 +49,8 @@ else{
 	audio_pause_sound(snd_walking_1)
 }
 
-if keyboard_check_pressed(ord("B")){
-	bowl_on = !bowl_on
-	
-	if bowl_on{
-		cursor_sprite = spr_cursor_empty
-	}
-	else{
-		cursor_sprite = spr_cursor
-	}
-}
-
-if bowl_on{
-	if snd_timer <= 0 {
+if global.BOWL{
+	if global.BOWL_TIMER <= 0 {
 		if distance_to_object(obj_bowl_final) <= 5{
 			audio_stop_sound(snd_bowl_search)
 			audio_stop_sound(snd_bowl_final)
@@ -74,7 +63,17 @@ if bowl_on{
 			audio_stop_sound(snd_bowl_final)
 			audio_play_sound(snd_bowl_search, 1, false)
 		}
-		snd_timer = snd_timer_max
+		global.BOWL_TIMER = global.BOWL_MAX_TIME
 	}
-	snd_timer-=1
+	global.BOWL_TIMER-=1
+}
+
+if global.TALISMAN_DRAGGED{
+	if abs(mouse_x - x) > global.TALISMAN_RANGE or
+		abs(mouse_y - y) > global.TALISMAN_RANGE{
+		cursor_sprite = spr_cursor_talisman_out_of_range
+	}
+	else{
+		cursor_sprite = spr_cursor
+	}
 }
