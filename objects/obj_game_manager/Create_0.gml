@@ -14,7 +14,8 @@ global.TALISMAN_RANGE = 50
 global.GAME_STAGE = 1 
 
 // Whether the player is reading an object
-global.READING_NOTE = true
+global.READING_NOTE = false
+global.READING_NOTE = false
 
 //audio_sound_gain(mus_horror_beat_1, 0.7, 0)
 //audio_play_sound(mus_horror_beat_1, 10, true)

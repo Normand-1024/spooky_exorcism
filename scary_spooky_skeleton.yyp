@@ -183,14 +183,6 @@
             }
         },
         {
-            "Key": "454dc46f-aa6c-4b2d-a423-24e78e54236b",
-            "Value": {
-                "id": "2d27392f-d6d9-47c1-ad00-7788b5d27097",
-                "resourcePath": "rooms\\demo_room\\demo_room.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "48870fbb-749a-4564-90d7-591ed788565a",
             "Value": {
                 "id": "e1b35338-c71e-4b3f-ae6f-a621a17c556b",
@@ -380,14 +372,6 @@
                 "id": "4b5d288c-e273-4573-9a4d-76306a940e3b",
                 "resourcePath": "sprites\\spr_background\\spr_background.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "b1ecf0a0-08ca-444a-a2e9-9b48fff67ece",
-            "Value": {
-                "id": "46b273cd-8196-4e63-8cb6-596ed0e8216a",
-                "resourcePath": "objects\\obj_mirror_manager\\obj_mirror_manager.yy",
-                "resourceType": "GMObject"
             }
         },
         {
