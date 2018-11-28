@@ -11,9 +11,14 @@ if mouse_check_button(mb_left) and
 	x = mouse_x + sprite_width / 2
 	y = mouse_y + sprite_width / 2
 }
+else if global.TALISMAN_DRAGGED{
+	global.TALISMAN_DRAGGED = false
+	cursor_sprite = spr_cursor
+	
+	instance_create_depth(mouse_x, mouse_y, 101, obj_talisman_yellow)
+	
+}
 else{
 	x = original_x
 	y = original_y
-	global.TALISMAN_DRAGGED = false
-	cursor_sprite = spr_cursor
 }

@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_bowl_final",
     "eventList": [
-        
+        {
+            "id": "b7d08439-5ac8-44a1-90e0-2a77a633911e",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "5c9396ff-1daf-4a62-b5c1-ef33fab3ff67"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -24,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "00000000-0000-0000-0000-000000000000",
-    "visible": true
+    "spriteId": "aee66a24-79c7-43b3-a5a1-60c72fdddb98",
+    "visible": false
 }

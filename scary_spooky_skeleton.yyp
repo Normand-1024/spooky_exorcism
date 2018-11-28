@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "0766c1f3-2e10-448c-99bf-38296f19ea00",
+            "Value": {
+                "id": "21dbd2ae-ee7f-4241-b2f8-128acf2ca33c",
+                "resourcePath": "sprites\\spr_ether_bowl\\spr_ether_bowl.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "08acdd25-4460-4fb4-85a9-937b9f73486e",
             "Value": {
                 "id": "32351670-c9e0-4f91-abe8-1132630971ce",
@@ -439,6 +447,14 @@
             }
         },
         {
+            "Key": "ca02f19e-9a15-4f77-9c6f-4c593a930269",
+            "Value": {
+                "id": "b3fb0ae1-eff1-4386-9433-ee1ce5f9b295",
+                "resourcePath": "sprites\\spr_bedroom_blood\\spr_bedroom_blood.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "cbf7c9b2-1390-4cf0-835a-41d2b8e6bf46",
             "Value": {
                 "id": "6864d67b-0eb5-420d-a2cd-adeee648562d",
@@ -487,6 +503,14 @@
             }
         },
         {
+            "Key": "d84d4e6e-508c-408a-8a5c-d39ee0ea075c",
+            "Value": {
+                "id": "c7aee4ea-b97a-4e08-9e0b-41c64d759763",
+                "resourcePath": "sprites\\spr_ether_atmosphere\\spr_ether_atmosphere.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d9912296-4582-44c7-bbe3-979e3d48c366",
             "Value": {
                 "id": "2e7aefe1-4372-43ee-8211-bd4cc3625b26",
@@ -511,11 +535,27 @@
             }
         },
         {
+            "Key": "e8e25778-d420-4482-8eab-95cb9908437a",
+            "Value": {
+                "id": "5993bb0a-dfca-43e9-a281-dd60fb5dd51a",
+                "resourcePath": "sprites\\spr_ether_smoke\\spr_ether_smoke.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e9c65433-e3e2-48be-93f0-fd8c879e8c9d",
             "Value": {
                 "id": "efe89279-3db7-44dc-b390-ac4e26a7a9e0",
                 "resourcePath": "views\\e9c65433-e3e2-48be-93f0-fd8c879e8c9d.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e9fe0288-f3e5-4134-9414-2d1002f2ba82",
+            "Value": {
+                "id": "45c24471-97be-449a-a171-2ffc07ea4db9",
+                "resourcePath": "sprites\\spr_ether_talisman_question\\spr_ether_talisman_question.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

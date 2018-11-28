@@ -1,7 +1,7 @@
 camera_width = 200
 camera_height = 200
-camera_x_offset = -500 //x offset value between mouse and the mirror camera
-camera_y_offset = 0 //y offset value between mouse and the mirror camera
+camera_x_offset = 0 //x offset value between mouse and the mirror camera
+camera_y_offset = -2144 //y offset value between mouse and the mirror camera
 
 viewport_id = 2
 viewport_width = 200

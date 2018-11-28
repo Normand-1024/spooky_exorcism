@@ -8,13 +8,12 @@ global.BOWL = false
 global.BOWL_TIMER = 0
 global.BOWL_MAX_TIME = room_speed*2.8
 global.TALISMAN_DRAGGED = false
-global.TALISMAN_RANGE = 50
+global.TALISMAN_RANGE = 80
 
 // 0 = mirror not working, 1 = finding first note, 2 = second note, 3 = third, 4 = female ghost
-global.GAME_STAGE = 1 
+global.GAME_STAGE = 0 
 
 // Whether the player is reading an object
-global.READING_NOTE = false
 global.READING_NOTE = false
 
 //audio_sound_gain(mus_horror_beat_1, 0.7, 0)

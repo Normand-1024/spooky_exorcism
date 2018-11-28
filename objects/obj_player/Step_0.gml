@@ -1,7 +1,7 @@
 if_walking = false
 
 if not global.READING_NOTE{
-	if keyboard_check(vk_right){
+	if keyboard_check(ord("D")){
 		//right collision
 		if (place_meeting(x+mov_spd, y, obj_collision)){
 			while(!place_meeting(x+1, y, obj_collision)){
@@ -12,7 +12,7 @@ if not global.READING_NOTE{
 		}
 		if_walking = true
 	}
-	if keyboard_check(vk_left){
+	if keyboard_check(ord("A")){
 		if (place_meeting(x-mov_spd, y, obj_collision)){
 			while(!place_meeting(x-1, y, obj_collision)){
 				x-= 1	
@@ -22,7 +22,7 @@ if not global.READING_NOTE{
 		}
 		if_walking = true
 	}
-	if keyboard_check(vk_up){
+	if keyboard_check(ord("W")){
 		if (place_meeting(x,y-mov_spd, obj_collision)){
 			while(!place_meeting(x, y-1, obj_collision)){
 				y -= 1	
@@ -32,7 +32,7 @@ if not global.READING_NOTE{
 		}
 		if_walking = true
 	}
-	if keyboard_check(vk_down){
+	if keyboard_check(ord("S")){
 		if (place_meeting(x,y+mov_spd, obj_collision)){
 			while(!place_meeting(x, y+1, obj_collision)){
 				y += 1	
@@ -51,22 +51,23 @@ if not global.READING_NOTE{
 	}
 
 	if global.BOWL{
-		if global.BOWL_TIMER <= 0 {
-			if distance_to_object(obj_bowl_final) <= 5{
-				audio_stop_sound(snd_bowl_search)
-				audio_stop_sound(snd_bowl_final)
-				audio_play_sound(snd_bowl_final, 0, false)
-			}
-			else {
-				show_debug_message(string(distance_to_object(obj_bowl_final)))
-				audio_sound_pitch(snd_bowl_search, -min(400, distance_to_object(obj_bowl_final))/200 + 3)
-				audio_stop_sound(snd_bowl_search)
-				audio_stop_sound(snd_bowl_final)
-				audio_play_sound(snd_bowl_search, 1, false)
-			}
-			global.BOWL_TIMER = global.BOWL_MAX_TIME
+		//if global.BOWL_TIMER <= 0 {
+		if distance_to_object(obj_bowl_final) <= 5{
+			audio_stop_sound(snd_bowl_search)
+			audio_stop_sound(snd_bowl_final)
+			audio_play_sound(snd_bowl_final, 0, false)
 		}
-		global.BOWL_TIMER-=1
+		else {
+			show_debug_message(string(distance_to_object(obj_bowl_final)))
+			audio_sound_pitch(snd_bowl_search, -min(400, distance_to_object(obj_bowl_final))/200 + 3)
+			audio_stop_sound(snd_bowl_search)
+			audio_stop_sound(snd_bowl_final)
+			audio_play_sound(snd_bowl_search, 1, false)
+		}
+		global.BOWL_TIMER = global.BOWL_MAX_TIME
+		global.BOWL = false
+		//}
+		//global.BOWL_TIMER-=1
 	}
 
 	if global.TALISMAN_DRAGGED{
