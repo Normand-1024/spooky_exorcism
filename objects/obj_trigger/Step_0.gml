@@ -41,6 +41,11 @@ if place_meeting(x,y, obj_talisman_yellow){
 				layer_sprite_alpha(a[i], 0)
 			}
 		}
+		else if trigger_id == 2{
+			global.READING_NOTE = true
+		}
+		
+		
 	}
 	else if global.GAME_STAGE == 2{
 		if trigger_id == -3{
@@ -50,6 +55,9 @@ if place_meeting(x,y, obj_talisman_yellow){
 				layer_sprite_alpha(a[i], 0)
 			}
 		}
+		else if trigger_id == 5{
+			global.READING_NOTE = true
+		}
 	}
 	else if global.GAME_STAGE == 3{
 		if trigger_id == -4{
@@ -58,6 +66,9 @@ if place_meeting(x,y, obj_talisman_yellow){
 			{
 				layer_sprite_alpha(a[i], 0)
 			}
+		}
+		else if trigger_id == 11{
+			global.READING_NOTE = true
 		}
 	}
 }

@@ -415,6 +415,14 @@
             }
         },
         {
+            "Key": "9e781170-b290-4046-94b8-29f5ca70430b",
+            "Value": {
+                "id": "cf1fcb6a-f4a4-419c-84ff-687839d01273",
+                "resourcePath": "sprites\\spr_livingroom_blood\\spr_livingroom_blood.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "996ab539-684b-43ae-b3b4-e1881118c649",
