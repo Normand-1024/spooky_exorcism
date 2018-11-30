@@ -359,6 +359,14 @@
             }
         },
         {
+            "Key": "7cf30e6d-ac9c-4f54-8f01-54d2499d702f",
+            "Value": {
+                "id": "ae588a1a-bb82-49cf-ad8a-05736c659c24",
+                "resourcePath": "sounds\\snd_bone_breaking\\snd_bone_breaking.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "7e4bffe1-a133-4419-b60a-a379874606c2",
             "Value": {
                 "id": "4299ca85-718b-4d9d-9a32-87f429f2781f",
@@ -451,6 +459,14 @@
             "Value": {
                 "id": "733f46d1-6ea5-456c-aeae-34d9b5527216",
                 "resourcePath": "sprites\\spr_floorbed\\spr_floorbed.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b125b12a-1a94-4fed-9ede-c60732ce0175",
+            "Value": {
+                "id": "d5404a86-3f93-4763-a9d9-031af9c76ce3",
+                "resourcePath": "sprites\\spr_bloodsplash\\spr_bloodsplash.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -571,6 +587,14 @@
             "Value": {
                 "id": "6982ad6c-5540-4351-aae9-b35303ae3af1",
                 "resourcePath": "objects\\obj_talisman_icon\\obj_talisman_icon.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "d6f7fbe6-f249-4b6b-90fc-e722d39f848d",
+            "Value": {
+                "id": "08f931a5-8e92-4172-ad20-8f38fe781c84",
+                "resourcePath": "objects\\obj_bloodsplash\\obj_bloodsplash.yy",
                 "resourceType": "GMObject"
             }
         },
