@@ -8,7 +8,7 @@
     "VTile": false,
     "bbox_bottom": 107,
     "bbox_left": 29,
-    "bbox_right": 80,
+    "bbox_right": 101,
     "bbox_top": 12,
     "bboxmode": 0,
     "colkind": 1,
@@ -48,6 +48,13 @@
                     "mvc": "1.0",
                     "FrameId": "0e77ec64-fa12-49f6-90d3-5d251fc41f43",
                     "LayerId": "e2d9b2b9-1ab2-48cb-8371-08901b4a5d1e"
+                },
+                {
+                    "id": "12d52b16-7c68-4279-a050-82319d9ca92e",
+                    "modelName": "GMSpriteImage",
+                    "mvc": "1.0",
+                    "FrameId": "0e77ec64-fa12-49f6-90d3-5d251fc41f43",
+                    "LayerId": "b96e4844-a1a8-4e3f-968d-50c47fe8c59e"
                 }
             ]
         }
@@ -56,6 +63,17 @@
     "gridY": 0,
     "height": 112,
     "layers": [
+        {
+            "id": "b96e4844-a1a8-4e3f-968d-50c47fe8c59e",
+            "modelName": "GMImageLayer",
+            "mvc": "1.0",
+            "SpriteId": "980797f4-bb2b-49c5-9aca-caacb42c040b",
+            "blendMode": 0,
+            "isLocked": false,
+            "name": "beer",
+            "opacity": 100,
+            "visible": true
+        },
         {
             "id": "e2d9b2b9-1ab2-48cb-8371-08901b4a5d1e",
             "modelName": "GMImageLayer",
