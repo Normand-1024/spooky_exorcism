@@ -6,10 +6,10 @@
     "For3D": false,
     "HTile": false,
     "VTile": false,
-    "bbox_bottom": 62,
-    "bbox_left": 0,
-    "bbox_right": 86,
-    "bbox_top": 10,
+    "bbox_bottom": 60,
+    "bbox_left": 1,
+    "bbox_right": 94,
+    "bbox_top": 2,
     "bboxmode": 0,
     "colkind": 1,
     "coltolerance": 0,
@@ -29,11 +29,18 @@
             },
             "images": [
                 {
-                    "id": "2d43237a-f7c7-4ca1-a461-30c13a204597",
+                    "id": "5c3a0af2-427d-4452-8e61-c914023809b4",
                     "modelName": "GMSpriteImage",
                     "mvc": "1.0",
                     "FrameId": "e497e07d-9336-47f2-8587-8a11613884e5",
-                    "LayerId": "4eb4af67-fdc9-4d5a-a038-0fa443d59284"
+                    "LayerId": "046eb491-4727-48e8-826b-353229998cf9"
+                },
+                {
+                    "id": "5c48246d-6562-4ce6-ba3c-a0442ec033d3",
+                    "modelName": "GMSpriteImage",
+                    "mvc": "1.0",
+                    "FrameId": "e497e07d-9336-47f2-8587-8a11613884e5",
+                    "LayerId": "95e60f8b-f57c-44e1-b1e6-e6c016a5440f"
                 }
             ]
         }
@@ -43,13 +50,24 @@
     "height": 64,
     "layers": [
         {
-            "id": "4eb4af67-fdc9-4d5a-a038-0fa443d59284",
+            "id": "95e60f8b-f57c-44e1-b1e6-e6c016a5440f",
             "modelName": "GMImageLayer",
             "mvc": "1.0",
             "SpriteId": "dc0fcbad-0497-4846-aae6-ce3a432c5a2f",
             "blendMode": 0,
             "isLocked": false,
-            "name": "default",
+            "name": "Layer 2",
+            "opacity": 100,
+            "visible": true
+        },
+        {
+            "id": "046eb491-4727-48e8-826b-353229998cf9",
+            "modelName": "GMImageLayer",
+            "mvc": "1.0",
+            "SpriteId": "dc0fcbad-0497-4846-aae6-ce3a432c5a2f",
+            "blendMode": 0,
+            "isLocked": false,
+            "name": "Layer 1",
             "opacity": 100,
             "visible": true
         }

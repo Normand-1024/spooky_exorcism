@@ -671,6 +671,14 @@
             }
         },
         {
+            "Key": "e82992f1-e65e-4b9d-b83a-d2252344d152",
+            "Value": {
+                "id": "e797bc7f-20ac-45ab-b709-f3989a1ef966",
+                "resourcePath": "sprites\\spr_bowl_final\\spr_bowl_final.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e8e25778-d420-4482-8eab-95cb9908437a",
             "Value": {
                 "id": "5993bb0a-dfca-43e9-a281-dd60fb5dd51a",
