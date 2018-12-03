@@ -26,7 +26,7 @@ diary 0:
 it didn't work!!!
 he survived
 they are after ME
-HELP
+HELP ME
 */
 
 
@@ -58,8 +58,9 @@ passion?
 diary 3:
 2000-02-13
 i am scared
-
+he is yelling
 Mommy is screaming
 
+it got quiet
 where did Mommy go?
 */
