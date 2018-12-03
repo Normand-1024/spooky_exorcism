@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "09bd211c-fb1f-433f-8efc-6c8bcac7275d",
+            "Value": {
+                "id": "4b7920c3-470b-49b5-b728-8265048f5901",
+                "resourcePath": "objects\\obj_incense\\obj_incense.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "09f70d3c-678a-4ab9-9604-36f08ce87128",
             "Value": {
                 "id": "649d5a77-4660-4a53-8eb8-c332ecd0d793",
@@ -139,6 +147,14 @@
             "Value": {
                 "id": "2570308a-f8ca-4e3f-b595-d57e03b09b8e",
                 "resourcePath": "sprites\\spr_leaf\\spr_leaf.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "238a451b-51b8-451a-ad32-c8e5b7707609",
+            "Value": {
+                "id": "4fdb67f7-848d-4e33-8399-1d9a9887ac65",
+                "resourcePath": "sprites\\spr_toilet\\spr_toilet.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -243,14 +259,6 @@
             "Value": {
                 "id": "b7f167d5-a9a0-4c45-876d-c8ee2fbb68dc",
                 "resourcePath": "sprites\\spr_mirror\\spr_mirror.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "5693c92a-9853-4843-b12d-d574f1ec98d9",
-            "Value": {
-                "id": "30e447ca-6a6d-4184-a1cc-ff64b8322875",
-                "resourcePath": "sprites\\spr_toilet\\spr_toilet.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -439,6 +447,14 @@
             }
         },
         {
+            "Key": "ab9cfb51-0ccb-46b5-8f25-e4977839f64e",
+            "Value": {
+                "id": "61c8b5b4-e83e-4b5a-9900-427b8831ab1b",
+                "resourcePath": "sprites\\spr_belt\\spr_belt.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ac437ed1-5c7b-49d0-a9b4-3233b2ea1f8c",
             "Value": {
                 "id": "eafc156a-c04b-4593-8202-b014d9ae9771",
@@ -572,14 +588,6 @@
                 "id": "5d54e8c4-d08b-4e3e-90ec-6fbfacddc31a",
                 "resourcePath": "views\\d208ca43-a4f5-44b0-9bf4-e0797d9435dc.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "d3704add-8ad4-42c5-b79e-6833794dccb9",
-            "Value": {
-                "id": "5986ee21-ef7f-4dab-9990-f8e3c4d0e2f2",
-                "resourcePath": "sprites\\spr_belt\\spr_belt.yy",
-                "resourceType": "GMSprite"
             }
         },
         {

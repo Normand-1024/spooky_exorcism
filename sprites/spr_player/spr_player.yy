@@ -7,9 +7,9 @@
     "HTile": false,
     "VTile": false,
     "bbox_bottom": 95,
-    "bbox_left": 3,
-    "bbox_right": 87,
-    "bbox_top": 0,
+    "bbox_left": 26,
+    "bbox_right": 65,
+    "bbox_top": 5,
     "bboxmode": 0,
     "colkind": 1,
     "coltolerance": 0,
@@ -34,6 +34,20 @@
                     "mvc": "1.0",
                     "FrameId": "67939b6e-4588-4b66-804e-9daeb22493ae",
                     "LayerId": "8afc3791-df2e-497b-8459-24e40327524d"
+                },
+                {
+                    "id": "e1375eb5-bf1c-495c-b982-2a694f99dc55",
+                    "modelName": "GMSpriteImage",
+                    "mvc": "1.0",
+                    "FrameId": "67939b6e-4588-4b66-804e-9daeb22493ae",
+                    "LayerId": "e483d9f0-1543-40a7-b367-08560752d314"
+                },
+                {
+                    "id": "aca579f0-1131-4f8c-9ded-deecbb3ed537",
+                    "modelName": "GMSpriteImage",
+                    "mvc": "1.0",
+                    "FrameId": "67939b6e-4588-4b66-804e-9daeb22493ae",
+                    "LayerId": "a8630daf-2365-43e8-bb29-5a641f54c880"
                 }
             ]
         }
@@ -42,6 +56,28 @@
     "gridY": 0,
     "height": 96,
     "layers": [
+        {
+            "id": "a8630daf-2365-43e8-bb29-5a641f54c880",
+            "modelName": "GMImageLayer",
+            "mvc": "1.0",
+            "SpriteId": "48870fbb-749a-4564-90d7-591ed788565a",
+            "blendMode": 0,
+            "isLocked": false,
+            "name": "Layer 2",
+            "opacity": 100,
+            "visible": true
+        },
+        {
+            "id": "e483d9f0-1543-40a7-b367-08560752d314",
+            "modelName": "GMImageLayer",
+            "mvc": "1.0",
+            "SpriteId": "48870fbb-749a-4564-90d7-591ed788565a",
+            "blendMode": 0,
+            "isLocked": false,
+            "name": "Layer 1",
+            "opacity": 100,
+            "visible": true
+        },
         {
             "id": "8afc3791-df2e-497b-8459-24e40327524d",
             "modelName": "GMImageLayer",
