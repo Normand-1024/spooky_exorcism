@@ -9,6 +9,8 @@ global.BOWL_TIMER = 0
 global.BOWL_MAX_TIME = room_speed*2.8
 global.TALISMAN_DRAGGED = false
 global.TALISMAN_RANGE = 80
+global.INCENSE_DRAGGED = false
+global.INCENSE_RANGE = 80
 
 // 0 = mirror not working, 1 = finding first note, 2 = second note, 3 = third, 4 = female ghost
 global.GAME_STAGE = 0 

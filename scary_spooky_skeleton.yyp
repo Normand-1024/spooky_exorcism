@@ -167,10 +167,10 @@
             }
         },
         {
-            "Key": "24709937-f648-4ed4-b7c3-e0f1cbb5ee30",
+            "Key": "274a10d5-03c8-42a9-94b6-39bf27b9047c",
             "Value": {
-                "id": "40c88fe4-210a-4d60-a38d-6479aed145c9",
-                "resourcePath": "objects\\obj_talisman_yellow\\obj_talisman_yellow.yy",
+                "id": "f72f06c5-f516-4c0b-ba26-75cf88b36c78",
+                "resourcePath": "objects\\obj_talisman\\obj_talisman.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -263,6 +263,14 @@
             }
         },
         {
+            "Key": "51924130-58e0-4133-a3df-248da97e7582",
+            "Value": {
+                "id": "a6821fdd-0e40-4a86-ba58-ab85f067f9ca",
+                "resourcePath": "objects\\obj_incense_icon\\obj_incense_icon.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "535e3bc3-d406-4144-8d01-19894e623a44",
             "Value": {
                 "id": "b7f167d5-a9a0-4c45-876d-c8ee2fbb68dc",
@@ -330,7 +338,7 @@
             "Key": "6ddbc922-0898-4a37-ad1e-5f50d44ef7bd",
             "Value": {
                 "id": "7669e738-ddc3-48ab-8acb-91436b75e566",
-                "resourcePath": "sprites\\spr_cursor_talisman_out_of_range\\spr_cursor_talisman_out_of_range.yy",
+                "resourcePath": "sprites\\spr_cursor_out_of_range\\spr_cursor_out_of_range.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -543,6 +551,14 @@
             }
         },
         {
+            "Key": "b6e2c08c-9e93-4e07-a61e-0f8e3fc828d4",
+            "Value": {
+                "id": "6fa0a4b7-bb61-43e3-9908-b8120cd54667",
+                "resourcePath": "objects\\obj_incense_trigger\\obj_incense_trigger.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b7eb6a9f-81f6-4c5d-b56e-5e5a93ddf50a",
             "Value": {
                 "id": "f1e2a2f8-bbaf-4fca-b2b4-17aec81960c5",
@@ -636,6 +652,14 @@
                 "id": "08f931a5-8e92-4172-ad20-8f38fe781c84",
                 "resourcePath": "objects\\obj_bloodsplash\\obj_bloodsplash.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "d7c12379-1993-4ca7-ac04-7044e711b503",
+            "Value": {
+                "id": "8bd31e6d-64ff-4f43-9c5f-74e9dd329448",
+                "resourcePath": "sprites\\spr_incense_trigger\\spr_incense_trigger.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -740,14 +764,6 @@
                 "id": "0bffa2c7-150b-41de-ad73-e95c5d77b4f4",
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
-            }
-        },
-        {
-            "Key": "f498d63b-65cc-4986-aa14-72c87cb0bf64",
-            "Value": {
-                "id": "d55f132a-b7be-4b26-b79b-ca18b7aab1f8",
-                "resourcePath": "sprites\\spr_cursor_talisman\\spr_cursor_talisman.yy",
-                "resourceType": "GMSprite"
             }
         },
         {

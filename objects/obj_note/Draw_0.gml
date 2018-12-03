@@ -29,7 +29,6 @@ they are after ME
 HELP ME
 */
 
-
 /*
 indulgence
 diary 1:
@@ -48,6 +47,7 @@ diary 2:
 he got mad again today
 like he did with Mommy
 it hurts
+i will call demons
 REVENGE
 REVENGE
 REVENGE
@@ -63,4 +63,27 @@ Mommy is screaming
 
 it got quiet
 where did Mommy go?
+*/
+
+// time
+/* indulgence
+he got drunk again
+he said mom left because of me
+he said i was mocking him
+but i didn't say a thing
+*/
+
+/* violence
+he said he didn't like the way i looked at him
+he said he was teaching me respect
+so he beat me
+*/
+
+/*
+i followed the ritual 
+hoping that they would take him away
+but he picked up the knife
+his eyes all red
+walking towards me
+help me
 */

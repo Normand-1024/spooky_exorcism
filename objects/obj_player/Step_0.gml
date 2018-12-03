@@ -73,7 +73,16 @@ if not global.READING_NOTE{
 	if global.TALISMAN_DRAGGED{
 		if abs(mouse_x - x) > global.TALISMAN_RANGE or
 			abs(mouse_y - y) > global.TALISMAN_RANGE{
-			cursor_sprite = spr_cursor_talisman_out_of_range
+			cursor_sprite = spr_cursor_out_of_range
+		}
+		else{
+			cursor_sprite = spr_cursor
+		}
+	}
+	if global.INCENSE_DRAGGED{
+		if abs(mouse_x - x) > global.INCENSE_RANGE or
+			abs(mouse_y - y) > global.INCENSE_RANGE{
+			cursor_sprite = spr_cursor_out_of_range
 		}
 		else{
 			cursor_sprite = spr_cursor
