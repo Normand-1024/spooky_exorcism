@@ -2,7 +2,7 @@
     "id": "6ddbc922-0898-4a37-ad1e-5f50d44ef7bd",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "spr_cursor_out_of_range",
+    "name": "spr_cursor_talisman_out_of_range",
     "For3D": false,
     "HTile": false,
     "VTile": false,
