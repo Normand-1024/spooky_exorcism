@@ -1,6 +1,6 @@
 
 
-if place_meeting(x,y, obj_talisman_yellow){
+if place_meeting(x,y, obj_talisman) and not talisman_placed{
 	/*
 	if global.GAME_STAGE == 0{
 		if trigger_id == -1 and
@@ -35,18 +35,12 @@ if place_meeting(x,y, obj_talisman_yellow){
 	}
 	*/
 	b_if_wrong = false
-	wrong_stage = true
+	wrong_stage = false
 	
 	if global.GAME_STAGE == 1{
-		if trigger_id == -2{
-			var a = layer_get_all_elements("bedroom_smoke_spr");
-			for (var i = 0; i < array_length_1d(a); i++;)
-			{
-				layer_sprite_alpha(a[i], 0)
-			}
-		}
-		else if trigger_id == 2{
+		if trigger_id == 2{
 			global.READING_NOTE = true
+			
 		}
 		else if trigger_id == 3{
 			b_if_wrong = true
@@ -57,15 +51,7 @@ if place_meeting(x,y, obj_talisman_yellow){
 		
 	}
 	else if global.GAME_STAGE == 2{
-		if trigger_id == -3{
-			var a = layer_get_all_elements("livingroom_smoke_spr");
-			for (var i = 0; i < array_length_1d(a); i++;)
-			{
-				layer_sprite_alpha(a[i], 0)
-			}
-			b_if_wrong = false
-		}
-		else if trigger_id == 5{
+		if trigger_id == 5{
 			global.READING_NOTE = true
 			b_if_wrong = false
 		}
@@ -77,15 +63,7 @@ if place_meeting(x,y, obj_talisman_yellow){
 		}
 	}
 	else if global.GAME_STAGE == 3{
-		if trigger_id == -4{
-			var a = layer_get_all_elements("bathroom_smoke_spr");
-			for (var i = 0; i < array_length_1d(a); i++;)
-			{
-				layer_sprite_alpha(a[i], 0)
-			}
-			b_if_wrong = false
-		}
-		else if trigger_id == 11{
+		if trigger_id == 11{
 			global.READING_NOTE = true
 			b_if_wrong = false
 		}
@@ -99,11 +77,14 @@ if place_meeting(x,y, obj_talisman_yellow){
 	
 	if b_if_wrong{
 		instance_create_depth(x + sprite_width/2, y + sprite_height/2, 101, obj_bloodsplash)
-		t = collision_rectangle(x, y, x + sprite_width, y + sprite_height, obj_talisman_yellow,0, true)
+		t = collision_rectangle(x, y, x + sprite_width, y + sprite_height, obj_talisman, 0, true)
 		instance_destroy(t)
 	}
 	else if wrong_stage{
-		t = collision_rectangle(x, y, x + sprite_width, y + sprite_height, obj_talisman_yellow,0, true)
+		t = collision_rectangle(x, y, x + sprite_width, y + sprite_height, obj_talisman, 0, true)
 		instance_destroy(t)
+	}
+	else{
+		talisman_placed = true
 	}
 }

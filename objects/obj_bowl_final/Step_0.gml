@@ -9,11 +9,11 @@ else if global.GAME_STAGE == 1{
 }
 
 else if global.GAME_STAGE == 2{
-	x = 922
-	y = 320
+	x = 960
+	y = 64
 }
 
 else if global.GAME_STAGE == 3{
-	x = 736
-	y = 640
+	x = 704
+	y = 608
 }
