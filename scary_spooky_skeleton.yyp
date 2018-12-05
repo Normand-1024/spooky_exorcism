@@ -551,6 +551,14 @@
             }
         },
         {
+            "Key": "bc17e6b5-066b-472a-849b-f2fb311f4c8e",
+            "Value": {
+                "id": "1cb8e2db-aa18-4056-8cf5-97a0c0979512",
+                "resourcePath": "sprites\\spr_blood_box\\spr_blood_box.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "bc852635-cc8b-452c-8ff8-26da51a07a9e",
             "Value": {
                 "id": "c35bcc97-6779-4799-93dc-5b815b1a9a62",
