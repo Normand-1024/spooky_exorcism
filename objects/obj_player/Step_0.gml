@@ -11,6 +11,8 @@ if not global.READING_NOTE{
 			x = min(room_width, x + mov_spd)
 		}
 		if_walking = true
+		image_index = 2
+		image_xscale = -1
 	}
 	if keyboard_check(ord("A")){
 		if (place_meeting(x-mov_spd, y, obj_collision)){
@@ -21,6 +23,8 @@ if not global.READING_NOTE{
 			x = max(0, x - mov_spd)
 		}
 		if_walking = true
+		image_index = 2
+		image_xscale = 1
 	}
 	if keyboard_check(ord("W")){
 		if (place_meeting(x,y-mov_spd, obj_collision)){
@@ -31,6 +35,7 @@ if not global.READING_NOTE{
 			y = max(0, y - mov_spd)
 		}
 		if_walking = true
+		image_index = 1
 	}
 	if keyboard_check(ord("S")){
 		if (place_meeting(x,y+mov_spd, obj_collision)){
@@ -41,6 +46,7 @@ if not global.READING_NOTE{
 			y = max(0, y + mov_spd)
 		}
 		if_walking = true
+		image_index = 0
 	}
 
 	if if_walking{

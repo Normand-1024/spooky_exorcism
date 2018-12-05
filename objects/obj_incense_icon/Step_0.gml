@@ -17,7 +17,7 @@ else if global.INCENSE_DRAGGED{
 	global.INCENSE_DRAGGED = false
 	cursor_sprite = spr_cursor
 	
-	instance_create_depth(mouse_x, mouse_y, 101, obj_incense)
+	instance_create_depth(mouse_x, mouse_y, 201, obj_incense)
 }
 else{
 	x = original_x
