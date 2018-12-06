@@ -34,8 +34,14 @@ if place_meeting(x,y, obj_incense){
 		}
 	}
 	*/
+	if global.GAME_STAGE == 0{
+		if trigger_id = -1{
+			// goes into the game
+			global.GAME_STAGE = 1
+		}
+	}
 	
-	if global.GAME_STAGE == 1{
+	else if global.GAME_STAGE == 1{
 		if trigger_id == -2{
 			var a = layer_get_all_elements("bedroom_smoke_spr");
 			for (var i = 0; i < array_length_1d(a); i++;)
