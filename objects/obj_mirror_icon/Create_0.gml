@@ -24,3 +24,5 @@ view_set_camera(viewport_id, camera_id)
 view_set_wport(viewport_id, viewport_width)
 view_set_hport(viewport_id, viewport_height)
 view_set_visible(viewport_id, false)
+
+global.MIRROR = false

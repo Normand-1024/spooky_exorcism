@@ -135,6 +135,14 @@
             }
         },
         {
+            "Key": "18926b69-1f0a-4fc9-808c-12ff85ad37d6",
+            "Value": {
+                "id": "caad6583-5af9-43ac-8e5f-64c3e31cd2e0",
+                "resourcePath": "sprites\\spr_woman_in_the_mirror\\spr_woman_in_the_mirror.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "21cdefbe-bd93-4ffa-a975-44e9bba598b1",
             "Value": {
                 "id": "01c93a58-b8c4-472c-8e42-88fd66128059",
@@ -467,14 +475,6 @@
             "Value": {
                 "id": "1d14a34e-7e2b-4889-b1e9-628324c86180",
                 "resourcePath": "sprites\\spr_broom\\spr_broom.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "980797f4-bb2b-49c5-9aca-caacb42c040b",
-            "Value": {
-                "id": "466779a7-7f2c-4800-809c-ad0b5e30abb5",
-                "resourcePath": "sprites\\spr_father\\spr_father.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -836,6 +836,14 @@
                 "id": "18bd856c-6451-4c51-a276-ed8180e4f1a3",
                 "resourcePath": "sprites\\spr_radio\\spr_radio.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f75f0383-f583-4b84-9f6b-c2b03d620a68",
+            "Value": {
+                "id": "30ae3552-1532-4c1c-9233-3f9e7e2f8723",
+                "resourcePath": "objects\\obj_woman_in_the_mirror\\obj_woman_in_the_mirror.yy",
+                "resourceType": "GMObject"
             }
         },
         {
