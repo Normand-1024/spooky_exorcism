@@ -11,6 +11,7 @@ global.TALISMAN_DRAGGED = false
 global.TALISMAN_RANGE = 120
 global.INCENSE_DRAGGED = false
 global.INCENSE_RANGE = 120
+global.INCENSE_APPEAR = false
 
 // 0 = mirror not working, 1 = finding first note, 2 = second note, 3 = third, 4 = female ghost
 global.GAME_STAGE = 0 

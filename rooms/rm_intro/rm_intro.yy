@@ -2,7 +2,7 @@
 {
     "name": "rm_intro",
     "id": "78487c48-e9cf-48ef-ab0f-0a3fda0758f1",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,
@@ -101,7 +101,8 @@
             "name": "spr",
             "id": "4ccf00af-8daa-4a26-be86-aedbba6f9a84",
             "assets": [
-{"__type": "GMRSpriteGraphic_Model:#YoYoStudio.MVCFormat","name": "graphic_FEC74F5","id": "74c20295-0ac2-482c-b6d9-a7c3a3536a9b","animationFPS": 15,"animationSpeedType": "0","colour": { "Value": 4294967295 },"frameIndex": 0,"ignore": false,"inheritItemSettings": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRSpriteGraphic","rotation": 0,"scaleX": 4.25,"scaleY": 4,"mvc": "1.0","spriteId": "0c954767-2056-4b7c-8c4b-960f8c16acee","userdefined_animFPS": false,"x": 224,"y": 64}
+{"__type": "GMRSpriteGraphic_Model:#YoYoStudio.MVCFormat","name": "graphic_FEC74F5","id": "74c20295-0ac2-482c-b6d9-a7c3a3536a9b","animationFPS": 15,"animationSpeedType": "0","colour": { "Value": 4294967295 },"frameIndex": 0,"ignore": false,"inheritItemSettings": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRSpriteGraphic","rotation": 0,"scaleX": 4.25,"scaleY": 4,"mvc": "1.0","spriteId": "0c954767-2056-4b7c-8c4b-960f8c16acee","userdefined_animFPS": false,"x": 224,"y": 64},
+{"__type": "GMRSpriteGraphic_Model:#YoYoStudio.MVCFormat","name": "graphic_360657C4","id": "75f2d6ea-ddab-46ce-9dd5-d0241805af47","animationFPS": 15,"animationSpeedType": "0","colour": { "Value": 4294967295 },"frameIndex": 0,"ignore": false,"inheritItemSettings": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRSpriteGraphic","rotation": 0,"scaleX": 5,"scaleY": 4,"mvc": "1.0","spriteId": "4b02f186-70eb-47e3-9041-d905b7a2397a","userdefined_animFPS": false,"x": -32,"y": 512}
             ],
             "depth": 300,
             "grid_x": 32,

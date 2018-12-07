@@ -61,6 +61,8 @@ if not global.READING_NOTE{
 		if distance_to_object(obj_bowl_final) <= 5{
 			audio_stop_sound(snd_bowl_search)
 			audio_stop_sound(snd_bowl_final)
+			// you found the position! display incense
+			global.INCENSE_APPEAR = true
 			audio_play_sound(snd_bowl_final, 0, false)
 		}
 		else {
