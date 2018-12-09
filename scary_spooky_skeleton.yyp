@@ -151,6 +151,14 @@
             }
         },
         {
+            "Key": "1e949e5b-952e-49ff-9558-d73ec5e03f77",
+            "Value": {
+                "id": "de1d0552-10aa-4d70-9e4a-12d09c0bd43f",
+                "resourcePath": "sprites\\spr_trashbag\\spr_trashbag.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "21cdefbe-bd93-4ffa-a975-44e9bba598b1",
             "Value": {
                 "id": "01c93a58-b8c4-472c-8e42-88fd66128059",
@@ -295,6 +303,14 @@
             }
         },
         {
+            "Key": "4bc74b63-e618-47f5-94b7-9e84e34796ca",
+            "Value": {
+                "id": "f3104dfe-ad98-424b-8e6f-ce18edffc0c6",
+                "resourcePath": "sprites\\spr_blood_laundry\\spr_blood_laundry.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "51924130-58e0-4133-a3df-248da97e7582",
             "Value": {
                 "id": "a6821fdd-0e40-4a86-ba58-ab85f067f9ca",
@@ -407,6 +423,14 @@
             }
         },
         {
+            "Key": "73e02b69-051e-4420-a0bd-ea7c75226486",
+            "Value": {
+                "id": "987d080c-3f3f-41f5-81ca-c134e9c36f9c",
+                "resourcePath": "sprites\\spr_broken_bottles\\spr_broken_bottles.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "77c7b358-9ad7-451b-9c55-9bb01bd3bf04",
             "Value": {
                 "id": "8a00a1e0-7758-4be9-b6d1-c0cf918bfdfb",
@@ -444,6 +468,14 @@
                 "id": "ae588a1a-bb82-49cf-ad8a-05736c659c24",
                 "resourcePath": "sounds\\snd_bone_breaking\\snd_bone_breaking.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "7d117ce3-3aee-4e59-a659-6f60b0d12a4a",
+            "Value": {
+                "id": "09378acc-892e-4cd8-861f-b519e58c8381",
+                "resourcePath": "sprites\\spr_blood_radio\\spr_blood_radio.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -506,7 +538,7 @@
             "Key": "9e781170-b290-4046-94b8-29f5ca70430b",
             "Value": {
                 "id": "cf1fcb6a-f4a4-419c-84ff-687839d01273",
-                "resourcePath": "sprites\\spr_livingroom_blood\\spr_livingroom_blood.yy",
+                "resourcePath": "sprites\\spr_addiction_blood\\spr_addiction_blood.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -639,6 +671,14 @@
             }
         },
         {
+            "Key": "bf9f756d-5486-45b9-a56d-6bc16228314d",
+            "Value": {
+                "id": "57ac3c53-0037-4e70-b6f5-1fea7eab1a58",
+                "resourcePath": "sprites\\spr_blood_belt\\spr_blood_belt.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c529d7f6-f81d-418e-9f47-64c01f07f637",
             "Value": {
                 "id": "e0400bee-23b2-4d8e-8cd7-5c9643aefb62",
@@ -658,7 +698,7 @@
             "Key": "ca02f19e-9a15-4f77-9c6f-4c593a930269",
             "Value": {
                 "id": "b3fb0ae1-eff1-4386-9433-ee1ce5f9b295",
-                "resourcePath": "sprites\\spr_bedroom_blood\\spr_bedroom_blood.yy",
+                "resourcePath": "sprites\\spr_violence_blood\\spr_violence_blood.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -763,6 +803,14 @@
             "Value": {
                 "id": "285f5638-4e44-42b0-9589-58d79c2e6acc",
                 "resourcePath": "sprites\\spr_eyeball\\spr_eyeball.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e20158ab-5957-4133-8c0e-8940296d0b6c",
+            "Value": {
+                "id": "83b053df-27e4-462a-a3df-274952444873",
+                "resourcePath": "sprites\\spr_blood_broom\\spr_blood_broom.yy",
                 "resourceType": "GMSprite"
             }
         },

@@ -2,14 +2,14 @@
     "id": "ca02f19e-9a15-4f77-9c6f-4c593a930269",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "spr_bedroom_blood",
+    "name": "spr_violence_blood",
     "For3D": false,
     "HTile": false,
     "VTile": false,
     "bbox_bottom": 125,
     "bbox_left": 3,
     "bbox_right": 122,
-    "bbox_top": 6,
+    "bbox_top": 54,
     "bboxmode": 0,
     "colkind": 1,
     "coltolerance": 0,
@@ -87,7 +87,7 @@
             "isLocked": false,
             "name": "Layer 1",
             "opacity": 100,
-            "visible": true
+            "visible": false
         }
     ],
     "origin": 0,
