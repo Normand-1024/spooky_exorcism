@@ -79,6 +79,14 @@ if place_meeting(x,y, obj_talisman) and not talisman_placed{
 			wrong_stage = true
 		}
 	}
+	else if global.GAME_STAGE == 4{
+		if trigger_id == 12{
+			global.READING_NOTE = true
+			audio_sound_pitch(snd_page_flip, 1)
+			audio_play_sound(snd_page_flip, 0, false)
+			b_if_wrong = false
+		}
+	}
 	
 	if b_if_wrong{
 		instance_create_depth(x + sprite_width/2, y + sprite_height/2, 201, obj_bloodsplash)

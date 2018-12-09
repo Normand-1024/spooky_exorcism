@@ -15,6 +15,9 @@ if global.READING_NOTE{
 	else if global.GAME_STAGE == 3{
 		sprite_index = spr_note21
 	}
+	else if global.GAME_STAGE == 4{
+		sprite_index = spr_endnote
+	}
 }
 else {
 	visible = false

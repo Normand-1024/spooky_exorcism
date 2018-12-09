@@ -383,6 +383,14 @@
             }
         },
         {
+            "Key": "6a4790b7-6f29-42a8-b80f-ec083e5f4938",
+            "Value": {
+                "id": "c2f5881d-a6d0-41c6-8fb8-c8fffabf00c6",
+                "resourcePath": "sprites\\spr_endnote\\spr_endnote.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6ddbc922-0898-4a37-ad1e-5f50d44ef7bd",
             "Value": {
                 "id": "7669e738-ddc3-48ab-8acb-91436b75e566",
@@ -623,6 +631,14 @@
             }
         },
         {
+            "Key": "b42ed0b3-1680-4cf6-a937-0fab03f29380",
+            "Value": {
+                "id": "b17c2c04-be08-4b40-aaa7-e163ca295745",
+                "resourcePath": "sprites\\sprite67\\sprite67.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b5c5b0e8-0a38-436a-a4d0-e234df734e81",
             "Value": {
                 "id": "4f2f817e-d97a-4af2-b056-1dbd545c5cca",
@@ -644,6 +660,14 @@
                 "id": "f1e2a2f8-bbaf-4fca-b2b4-17aec81960c5",
                 "resourcePath": "views\\b7eb6a9f-81f6-4c5d-b56e-5e5a93ddf50a.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b9b628ec-156c-493a-b72b-a8d820d08741",
+            "Value": {
+                "id": "fd461550-d4de-4046-b857-eb20815adfaf",
+                "resourcePath": "sounds\\snd_woman_crying\\snd_woman_crying.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -879,10 +903,26 @@
             }
         },
         {
+            "Key": "ee45518b-588c-41b4-a076-c21ce1c63eb2",
+            "Value": {
+                "id": "c91b3aff-6df7-45a5-a014-2ee4cb5f1e18",
+                "resourcePath": "objects\\obj_woman_crying\\obj_woman_crying.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "eea6e17e-f50d-4797-970a-355711f77c3f",
             "Value": {
                 "id": "2d643a95-93b5-4ea8-985f-4cacf0f116b6",
                 "resourcePath": "sprites\\spr_vase\\spr_vase.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "eecb9299-e8d1-4e6e-95cf-878e3a0c6ec4",
+            "Value": {
+                "id": "ab9a1ead-5986-451c-99ba-dd149b8492c7",
+                "resourcePath": "sprites\\spr_crying_woman\\spr_crying_woman.yy",
                 "resourceType": "GMSprite"
             }
         },

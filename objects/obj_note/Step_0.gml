@@ -15,7 +15,12 @@ if global.READING_NOTE{
 	}
 	else{
 		if mouse_check_button_pressed(mb_left){
-			global.GAME_STAGE += 1
+			if room == rm_end{
+				global.GAME_STAGE = 0
+			}
+			else{
+				global.GAME_STAGE += 1
+			}
 			global.READING_NOTE = false
 			current_timer = 0
 		}
