@@ -655,14 +655,6 @@
             }
         },
         {
-            "Key": "b5c5b0e8-0a38-436a-a4d0-e234df734e81",
-            "Value": {
-                "id": "4f2f817e-d97a-4af2-b056-1dbd545c5cca",
-                "resourcePath": "sounds\\mus_horror_heavy_2\\mus_horror_heavy_2.yy",
-                "resourceType": "GMSound"
-            }
-        },
-        {
             "Key": "b6e2c08c-9e93-4e07-a61e-0f8e3fc828d4",
             "Value": {
                 "id": "6fa0a4b7-bb61-43e3-9908-b8120cd54667",
@@ -755,14 +747,6 @@
             "Value": {
                 "id": "70d8699a-46e0-48b3-8a9f-33595c4d937c",
                 "resourcePath": "sounds\\snd_page_flip\\snd_page_flip.yy",
-                "resourceType": "GMSound"
-            }
-        },
-        {
-            "Key": "cbf7c9b2-1390-4cf0-835a-41d2b8e6bf46",
-            "Value": {
-                "id": "6864d67b-0eb5-420d-a2cd-adeee648562d",
-                "resourcePath": "sounds\\mus_horror_heavy_1\\mus_horror_heavy_1.yy",
                 "resourceType": "GMSound"
             }
         },
