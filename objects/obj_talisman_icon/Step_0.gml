@@ -15,8 +15,7 @@ else if global.TALISMAN_DRAGGED{
 	global.TALISMAN_DRAGGED = false
 	cursor_sprite = spr_cursor
 	
-	instance_create_depth(mouse_x, mouse_y, 101, obj_talisman_yellow)
-	
+	instance_create_depth(mouse_x, mouse_y, 201, obj_talisman)
 }
 else{
 	x = original_x

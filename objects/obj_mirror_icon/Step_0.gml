@@ -9,6 +9,7 @@ if mouse_check_button_pressed(mb_left){
 		mirror1_id.visible = true
 		mirror2_id.visible = true
 		visible = false
+		global.MIRROR = true
 	}
 	else if view_get_visible(viewport_id){
 		cursor_sprite = spr_cursor
@@ -16,6 +17,7 @@ if mouse_check_button_pressed(mb_left){
 		mirror1_id.visible = false
 		mirror2_id.visible = false
 		visible = true
+		global.MIRROR = false
 	}
 }
 

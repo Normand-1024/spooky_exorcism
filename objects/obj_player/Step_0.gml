@@ -11,6 +11,8 @@ if not global.READING_NOTE{
 			x = min(room_width, x + mov_spd)
 		}
 		if_walking = true
+		image_index = 2
+		image_xscale = -1
 	}
 	if keyboard_check(ord("A")){
 		if (place_meeting(x-mov_spd, y, obj_collision)){
@@ -21,6 +23,8 @@ if not global.READING_NOTE{
 			x = max(0, x - mov_spd)
 		}
 		if_walking = true
+		image_index = 2
+		image_xscale = 1
 	}
 	if keyboard_check(ord("W")){
 		if (place_meeting(x,y-mov_spd, obj_collision)){
@@ -31,6 +35,7 @@ if not global.READING_NOTE{
 			y = max(0, y - mov_spd)
 		}
 		if_walking = true
+		image_index = 1
 	}
 	if keyboard_check(ord("S")){
 		if (place_meeting(x,y+mov_spd, obj_collision)){
@@ -41,6 +46,7 @@ if not global.READING_NOTE{
 			y = max(0, y + mov_spd)
 		}
 		if_walking = true
+		image_index = 0
 	}
 
 	if if_walking{
@@ -55,6 +61,8 @@ if not global.READING_NOTE{
 		if distance_to_object(obj_bowl_final) <= 5{
 			audio_stop_sound(snd_bowl_search)
 			audio_stop_sound(snd_bowl_final)
+			// you found the position! display incense
+			global.INCENSE_APPEAR = true
 			audio_play_sound(snd_bowl_final, 0, false)
 		}
 		else {
@@ -73,7 +81,16 @@ if not global.READING_NOTE{
 	if global.TALISMAN_DRAGGED{
 		if abs(mouse_x - x) > global.TALISMAN_RANGE or
 			abs(mouse_y - y) > global.TALISMAN_RANGE{
-			cursor_sprite = spr_cursor_talisman_out_of_range
+			cursor_sprite = spr_cursor_out_of_range
+		}
+		else{
+			cursor_sprite = spr_cursor
+		}
+	}
+	if global.INCENSE_DRAGGED{
+		if abs(mouse_x - x) > global.INCENSE_RANGE or
+			abs(mouse_y - y) > global.INCENSE_RANGE{
+			cursor_sprite = spr_cursor_out_of_range
 		}
 		else{
 			cursor_sprite = spr_cursor
