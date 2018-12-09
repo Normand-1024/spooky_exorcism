@@ -19,3 +19,7 @@ else if room == rm_end {
 		room_goto(rm_intro)
 	}
 }
+
+if keyboard_check(vk_escape){
+	game_end()
+}
