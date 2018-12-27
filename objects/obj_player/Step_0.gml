@@ -66,7 +66,6 @@ if not global.READING_NOTE{
 			audio_play_sound(snd_bowl_final, 0, false)
 		}
 		else {
-			show_debug_message(string(distance_to_object(obj_bowl_final)))
 			audio_sound_pitch(snd_bowl_search, -min(400, distance_to_object(obj_bowl_final))/200 + 3)
 			audio_stop_sound(snd_bowl_search)
 			audio_stop_sound(snd_bowl_final)
@@ -78,22 +77,17 @@ if not global.READING_NOTE{
 		//global.BOWL_TIMER-=1
 	}
 
+	cursor_sprite = spr_cursor
 	if global.TALISMAN_DRAGGED{
 		if abs(mouse_x - x) > global.TALISMAN_RANGE or
 			abs(mouse_y - y) > global.TALISMAN_RANGE{
 			cursor_sprite = spr_cursor_out_of_range
-		}
-		else{
-			cursor_sprite = spr_cursor
 		}
 	}
 	if global.INCENSE_DRAGGED{
 		if abs(mouse_x - x) > global.INCENSE_RANGE or
 			abs(mouse_y - y) > global.INCENSE_RANGE{
 			cursor_sprite = spr_cursor_out_of_range
-		}
-		else{
-			cursor_sprite = spr_cursor
 		}
 	}
 }

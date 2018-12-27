@@ -16,6 +16,7 @@ else if room == rm_game {
 else if room == rm_end {
 	if global.GAME_STAGE == 0{
 		audio_stop_sound(snd_woman_crying)
+		global.INCENSE_APPEAR = false
 		room_goto(rm_intro)
 	}
 }

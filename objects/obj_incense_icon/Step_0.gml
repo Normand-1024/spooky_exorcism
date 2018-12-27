@@ -13,13 +13,14 @@ if mouse_check_button(mb_left) and
 	x = mouse_x + sprite_width / 2
 	y = mouse_y + sprite_width / 2
 }
-else if global.INCENSE_DRAGGED{
+else if global.INCENSE_DRAGGED and cursor_sprite != spr_cursor_out_of_range{
 	global.INCENSE_DRAGGED = false
 	cursor_sprite = spr_cursor
 	
 	instance_create_depth(mouse_x, mouse_y, 201, obj_incense)
 }
 else{
+	global.INCENSE_DRAGGED = false
 	x = original_x
 	y = original_y
 }
